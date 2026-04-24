@@ -1,0 +1,26 @@
+{
+  "same_day": {
+    "description": "Same-Day Test (56 devices)",
+    "acc_SVM": 0.6400639318060736,
+    "acc_RF": 0.3764517847629196,
+    "acc_LDA": 0.5017581246670219,
+    "acc_KNN": 0.6187533297815663,
+    "acc_ensemble": 0.6340969632392115,
+    "n_accepted": 8531,
+    "n_rejected": 854,
+    "acc_accepted": 0.6679170085570273,
+    "rejection_rate": 0.09099627064464572
+  },
+  "another_day": {
+    "description": "Cross-Day Test (56 devices)",
+    "acc_SVM": 0.39145805465316263,
+    "acc_RF": 0.28654691381616665,
+    "acc_LDA": 0.2742212879801261,
+    "acc_KNN": 0.34674183068985287,
+    "acc_ensemble": 0.38228549589145805,
+    "n_accepted": 9627,
+    "n_rejected": 839,
+    "acc_accepted": 0.4023060143346837,
+    "rejection_rate": 0.08016434167781387
+  }
+}

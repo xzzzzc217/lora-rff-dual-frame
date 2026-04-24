@@ -1,0 +1,69 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temp/lock files
+~$*
+*.tmp
+*.bak
+
+# ===== Large data (excluded from repo, fetch separately) =====
+# Raw IQ frame data — too large for GitHub (~17GB)
+data/原始帧/
+data/2025-03_校级中期/
+data/2025-05_预处理与相位/
+data/2025-10_国创中期/
+*.bin
+# Allow trained model
+!data/模型与图/*.pth
+
+# ===== Third-party code (use upstream repos instead) =====
+code/third_party/
+
+# ===== Misc =====
+*.log
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/

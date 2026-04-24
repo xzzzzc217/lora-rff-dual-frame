@@ -1,0 +1,38 @@
+{
+  "same_day": {
+    "description": "Same-Day Test",
+    "acc_SVM": 0.8516554162648666,
+    "acc_RF": 0.9900353584056574,
+    "acc_LDA": 0.991321118611379,
+    "acc_KNN": 0.8244937319189971,
+    "acc_ensemble": 0.9906782385085182,
+    "n_accepted": 6201,
+    "n_rejected": 21,
+    "acc_accepted": 0.9917755200774069,
+    "rejection_rate": 0.0033751205400192863
+  },
+  "another_day": {
+    "description": "Another-Day Test (Cross-day)",
+    "acc_SVM": 0.7943835616438356,
+    "acc_RF": 0.9763013698630137,
+    "acc_LDA": 0.9741095890410959,
+    "acc_KNN": 0.7623287671232877,
+    "acc_ensemble": 0.9768493150684932,
+    "n_accepted": 7250,
+    "n_rejected": 50,
+    "acc_accepted": 0.9804137931034482,
+    "rejection_rate": 0.00684931506849315
+  },
+  "nlos": {
+    "description": "NLOS Test",
+    "acc_SVM": 0.45227801795809774,
+    "acc_RF": 0.5440638510143,
+    "acc_LDA": 0.5493847688726305,
+    "acc_KNN": 0.4795477219820419,
+    "acc_ensemble": 0.5620219487861656,
+    "n_accepted": 2823,
+    "n_rejected": 184,
+    "acc_accepted": 0.5851930570315268,
+    "rejection_rate": 0.06119055537080147
+  }
+}

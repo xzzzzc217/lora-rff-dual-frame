@@ -1,0 +1,155 @@
+{
+  "known_30dev_same_day": {
+    "description": "已知设备(30台)-same_day",
+    "n_total": 6222,
+    "n_rejected": 21,
+    "n_accepted": 6201,
+    "rejection_rate": 0.0034,
+    "acc_on_accepted": 0.9918,
+    "mean_confidence": 0.9399,
+    "mean_conf_rejected": 0.4709,
+    "mean_conf_accepted": 0.9415
+  },
+  "known_30dev_another_day": {
+    "description": "已知设备(30台)-another_day",
+    "n_total": 7300,
+    "n_rejected": 50,
+    "n_accepted": 7250,
+    "rejection_rate": 0.0068,
+    "acc_on_accepted": 0.9804,
+    "mean_confidence": 0.9187,
+    "mean_conf_rejected": 0.4805,
+    "mean_conf_accepted": 0.9217
+  },
+  "unknown_8dev_same_day": {
+    "description": "未知设备(8台)-same_day",
+    "n_total": 966,
+    "n_rejected": 133,
+    "n_accepted": 833,
+    "rejection_rate": 0.1377,
+    "acc_on_accepted": 0.0,
+    "mean_confidence": 0.7214,
+    "mean_conf_rejected": 0.4971,
+    "mean_conf_accepted": 0.7572,
+    "correct_rejection_rate": 0.1377,
+    "false_accept_rate": 0.8623
+  },
+  "unknown_8dev_another_day": {
+    "description": "未知设备(8台)-another_day",
+    "n_total": 963,
+    "n_rejected": 116,
+    "n_accepted": 847,
+    "rejection_rate": 0.1205,
+    "acc_on_accepted": 0.0,
+    "mean_confidence": 0.71,
+    "mean_conf_rejected": 0.4842,
+    "mean_conf_accepted": 0.7409,
+    "correct_rejection_rate": 0.1205,
+    "false_accept_rate": 0.8795
+  },
+  "unknown_18dev_same_day": {
+    "description": "未知设备(18台)-same_day",
+    "n_total": 910,
+    "n_rejected": 0,
+    "n_accepted": 910,
+    "rejection_rate": 0.0,
+    "acc_on_accepted": 0.0,
+    "mean_confidence": 0.7895,
+    "mean_conf_rejected": "N/A",
+    "mean_conf_accepted": 0.7895,
+    "correct_rejection_rate": 0.0,
+    "false_accept_rate": 1.0
+  },
+  "unknown_18dev_another_day": {
+    "description": "未知设备(18台)-another_day",
+    "n_total": 930,
+    "n_rejected": 2,
+    "n_accepted": 928,
+    "rejection_rate": 0.0022,
+    "acc_on_accepted": 0.0,
+    "mean_confidence": 0.7904,
+    "mean_conf_rejected": 0.4829,
+    "mean_conf_accepted": 0.7911,
+    "correct_rejection_rate": 0.0022,
+    "false_accept_rate": 0.9978
+  },
+  "sensitivity": [
+    {
+      "name": "宽松",
+      "tau_1": 0.1,
+      "tau_2": 0.05,
+      "known_rejection_rate": 0.0016,
+      "known_acc_accepted": 0.9911,
+      "unknown_8dev_rejection_rate": 0.0518,
+      "unknown_8dev_false_accept": 0.9482,
+      "unknown_18dev_rejection_rate": 0.0,
+      "unknown_18dev_false_accept": 1.0
+    },
+    {
+      "name": "较宽松",
+      "tau_1": 0.2,
+      "tau_2": 0.08,
+      "known_rejection_rate": 0.0027,
+      "known_acc_accepted": 0.9916,
+      "unknown_8dev_rejection_rate": 0.0942,
+      "unknown_8dev_false_accept": 0.9058,
+      "unknown_18dev_rejection_rate": 0.0,
+      "unknown_18dev_false_accept": 1.0
+    },
+    {
+      "name": "默认",
+      "tau_1": 0.3,
+      "tau_2": 0.1,
+      "known_rejection_rate": 0.0034,
+      "known_acc_accepted": 0.9918,
+      "unknown_8dev_rejection_rate": 0.1377,
+      "unknown_8dev_false_accept": 0.8623,
+      "unknown_18dev_rejection_rate": 0.0,
+      "unknown_18dev_false_accept": 1.0
+    },
+    {
+      "name": "较严格",
+      "tau_1": 0.4,
+      "tau_2": 0.15,
+      "known_rejection_rate": 0.0051,
+      "known_acc_accepted": 0.9921,
+      "unknown_8dev_rejection_rate": 0.1915,
+      "unknown_8dev_false_accept": 0.8085,
+      "unknown_18dev_rejection_rate": 0.0934,
+      "unknown_18dev_false_accept": 0.9066
+    },
+    {
+      "name": "严格",
+      "tau_1": 0.5,
+      "tau_2": 0.2,
+      "known_rejection_rate": 0.009,
+      "known_acc_accepted": 0.993,
+      "unknown_8dev_rejection_rate": 0.2412,
+      "unknown_8dev_false_accept": 0.7588,
+      "unknown_18dev_rejection_rate": 0.1187,
+      "unknown_18dev_false_accept": 0.8813
+    },
+    {
+      "name": "非常严格",
+      "tau_1": 0.6,
+      "tau_2": 0.25,
+      "known_rejection_rate": 0.0138,
+      "known_acc_accepted": 0.9945,
+      "unknown_8dev_rejection_rate": 0.2981,
+      "unknown_8dev_false_accept": 0.7019,
+      "unknown_18dev_rejection_rate": 0.1264,
+      "unknown_18dev_false_accept": 0.8736
+    },
+    {
+      "name": "极严格",
+      "tau_1": 0.7,
+      "tau_2": 0.3,
+      "known_rejection_rate": 0.0305,
+      "known_acc_accepted": 0.9959,
+      "unknown_8dev_rejection_rate": 0.4296,
+      "unknown_8dev_false_accept": 0.5704,
+      "unknown_18dev_rejection_rate": 0.2549,
+      "unknown_18dev_false_accept": 0.7451
+    }
+  ]
+}
